@@ -1,0 +1,71 @@
+Blong 1: Understanding Networking Fundamentals
+
+INTRODUCTION
+As a part of my cyber security learning I am documenting my journey and have started exploring all the areas to be an successfull ethical hacker. In this blog I am documenting concepts like HTTP/HTTPS, DNS, TCP/UDP headers, status code,request-response
+communication and various protocols in networking.
+
+1) What is HTTP?
+HTTP stands for Hyper Text Transfer Protocol. It is an apllication layer protocol used for secure cmmunication between the server and the client.
+
+2) What is HTTPS?
+HTTPS stands for Hyper Text Tranfer Protocol Secure. It uses TLS that is Transport layer Security to communicate between client and server.
+
+3) What is DNS?
+DNS stands for Domain Name System. It translates domain names, such as example.com itno an IP address that cimputers used to communicate.
+
+4) HTTP request-response
+An HTTP request is sent by the client to the server and then server responses to that query or reqest that is nothing but the response of the server to the client.
+A request contains:
+- HTTP method
+- Request URL or path
+- Headers 
+- Optional Body 
+A response contains:
+- Status code
+- Headers 
+- Optional Body
+
+5) HTTP Methods
+Some commonly used HTTP methods are:
+- GET: Retrieves a resource.
+- POST: Submits data to a server.
+- PUT: Replaces a resource.
+- DELETE: Requests deletion of a resource.
+
+6) HTTP Headers
+HTTP headers provide additional information about a request or response.
+Examples include:
+- Host: Identifies the target host.
+- User-Agent: Describes the client software.
+- Content-Type: Indicates the media type of the message body.
+- Authorization: Carries authentication credentials or tokens.
+- Cache-Control: Provides caching instructions.
+
+7) HTTP Status Codes
+Status codes indicate the outcome of an HTTP request.
+- 200 OK: The request succeeded.
+- 301 Moved Permanently: The resource has a permanent redirect.
+- 400 Bad Request: The server could not process the request because of a client-side request problem.
+- 403 Forbidden: The server refuses to fulfill the request.
+- 404 Not Found: The requested resource was not found.
+- 500 Internal Server Error: The server encountered an unexpected condition.
+
+8) TCP vs UDP
+- TCP and UDP are transport-layer protocols.
+- TCP (Transmission Control Protocol)
+- Provides reliable, ordered delivery of data.
+-vTCP (Transmission Control Protocol)
+- Provides reliable, ordered delivery of data.
+- Uses acknowledgments and retransmissions.
+- Commonly used for web traffic.
+- UDP (User Datagram Protocol)
+- Sends datagrams without guaranteeing delivery or ordering.
+- Has less protocol overhead than TCP.
+- Commonly used in DNS queries, real-time communication, and streaming applications.
+
+9) What I Learned
+Through studying these concepts, I developed a better understanding of how browsers communicate with web servers, how domain names are resolved, and how transport protocols support network communication.
+I also began exploring Wireshark to observe network packets and connect theoretical concepts with practical packet analysis.
+
+10)Conclusion
+Understanding networking fundamentals is an important step in my cybersecurity journey. I plan to continue learning through hands-on practice and document my progress in future blogs.
